@@ -52,7 +52,7 @@ function animatepress(currentcolor) {
   $("#" + currentcolor).addClass('pressed');
   setTimeout(function() {
     $("#" + currentcolor).removeClass('pressed');
-  }, 150)
+  }, 100)
 }
 
 function checkanswer(currentlevel) {
